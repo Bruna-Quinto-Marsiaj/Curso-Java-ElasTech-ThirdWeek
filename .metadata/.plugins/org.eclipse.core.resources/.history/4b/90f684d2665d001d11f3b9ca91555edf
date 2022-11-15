@@ -1,0 +1,13 @@
+package model;
+
+public class ContaEspecial extends Conta {
+	private double limite;
+
+	public ContaEspecial(String nomeTitular, String cpf, int numero, double saldo, double limite) {
+		super(nomeTitular, cpf, numero, saldo);
+		this.limite = limite;
+	}
+	
+	
+
+}

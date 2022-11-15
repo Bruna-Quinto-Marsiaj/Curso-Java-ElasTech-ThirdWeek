@@ -1,0 +1,7 @@
+package model;
+
+public class Comissionado extends Funcionario {
+	private double salarioBase;
+	private double comissao;
+
+}

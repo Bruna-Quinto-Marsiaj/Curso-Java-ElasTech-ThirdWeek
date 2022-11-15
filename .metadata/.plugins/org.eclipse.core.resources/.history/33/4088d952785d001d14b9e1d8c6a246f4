@@ -1,0 +1,11 @@
+package userinterface;
+
+import model.Funcionario;
+
+public class FolhaDePagamento {
+	public static void main(String[] args) {
+		Funcionario f;
+		
+	}
+
+}

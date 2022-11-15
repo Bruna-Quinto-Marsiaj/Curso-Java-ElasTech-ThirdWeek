@@ -1,0 +1,62 @@
+package model;
+
+public class Conta {
+	protected String nomeTitular;
+	protected String cpf;
+	protected int numero;
+	protected double saldo;
+	
+	//construtor
+	public Conta(String nomeTitular, String cpf, int numero, double saldo) {
+		super();
+		this.nomeTitular = nomeTitular;
+		this.cpf = cpf;
+		this.numero = numero;
+		this.saldo = saldo;
+	}
+	
+	//método
+	//public String exibirInfo() {
+	@Override //para redefinir o método //pq fazer assim e não deixar como estava?
+	public String toString() {
+		return numero+" - "+nomeTitular+" ("+cpf+") R$ "+saldo;	
+	}
+
+    // getter and setter
+	public String getNomeTitular() {
+		return nomeTitular;
+	}
+
+	public void setNomeTitular(String nomeTitular) {
+		this.nomeTitular = nomeTitular;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+	
+	
+	
+
+}

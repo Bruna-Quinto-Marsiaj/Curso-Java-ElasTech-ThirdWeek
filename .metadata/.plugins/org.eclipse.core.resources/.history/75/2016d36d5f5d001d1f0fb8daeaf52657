@@ -1,0 +1,12 @@
+package app;
+
+public class PIBank {
+	public static void main(String[] args) {
+		Conta c1 = new Conta("Isidro" , "123.456.789-00" , 1234, 100);
+		
+		//System.out.println(c1.exibirInfo());
+		System.out.println(c1);// para imprimir o objeto. mostra: pacote, classe, endereço de memoria
+		
+	}
+
+}

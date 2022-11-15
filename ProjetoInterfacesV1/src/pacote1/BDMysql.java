@@ -1,0 +1,26 @@
+package pacote1;
+
+public class BDMysql implements InterfaceBD {
+
+	@Override
+	public void conectar() {
+		// TODO Auto-generated method stub
+		System.out.println("Connecting on MySQL Server...");
+		
+	}
+
+	@Override
+	public void desconectar() {
+		// TODO Auto-generated method stub
+		System.out.println("MySQL Server disconnected...");
+		
+	}
+
+	@Override
+	public void executar(String comando) {
+		// TODO Auto-generated method stub
+		System.out.println("mysql> "+comando);
+		
+	}
+
+}
