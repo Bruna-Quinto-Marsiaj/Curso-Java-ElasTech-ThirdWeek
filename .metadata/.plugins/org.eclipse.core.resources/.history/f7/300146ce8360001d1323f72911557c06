@@ -1,0 +1,10 @@
+package pacote;
+
+public class Arquivo {
+	private String criarArquivo;
+	
+	String linha = "m";
+	Path p = Paths.get("dados.txt");
+	Files.write(p, linha.getBytes())
+
+}

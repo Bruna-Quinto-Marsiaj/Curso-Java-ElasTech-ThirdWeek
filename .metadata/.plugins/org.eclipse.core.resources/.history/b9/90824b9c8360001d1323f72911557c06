@@ -1,0 +1,8 @@
+package pacote;
+
+public class Arquivo {
+	private String criar arquivo;
+	
+	
+
+}
